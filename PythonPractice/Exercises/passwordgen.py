@@ -2,11 +2,6 @@ import random
 #generates random passwords, either strong or weak
 genPassword = []
 
-#print (randInt)
-#print (randInt)
-#print (random.choice(alphabet))
-#print (random.choice(specialChars))
-
 def passwordGenerator(userLen):
     #for each number in user defined password length, choose randomly between random number, letter or special character and append to list
     for i in range(0,userLen):
