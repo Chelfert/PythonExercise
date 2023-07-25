@@ -11,7 +11,7 @@ if __name__=="__main__":
         bulls = 0
         count = 0
         gameChoice = str(random.randint(1000,9999))
-        print (gameChoice) # show the game's number 
+        #print (gameChoice) # show the game's number 
         while cows != 4:
             cows = 0
             bulls = 0
